@@ -39,19 +39,27 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={`${styles.sectionHeadText} font-vazir`}>چرا وب ؟</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React.
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        <h3 className="text-white font-medium">1. تقاضای بالا و درآمد خوب: </h3>
+        بازار کار گسترده با فرصت‌های شغلی فراوان و حقوق رقابتی.
+ <br /> <br />
+       <h3  className="text-white font-medium"> 2. ورود آسان و امکان رشد: </h3>
+        نیاز به مدرک دانشگاهی ندارد و با تمرین مستمر می‌توان به سطح حرفه‌ای رسید.
+ <br /> <br />
+       <h3 className="text-white font-medium"> 3. مهارت حل مسئله را تقویت می‌کند:</h3> 
+        ذهن را برای تحلیل منطقی و تفکر خلاقانه تربیت می‌کند.
+ <br /> <br />
+        <h3 className="text-white font-medium">4. استقلال و آزادی عمل:</h3> 
+        می‌توانید ایده‌های خود را بدون وابستگی به دیگران اجرا کنید یا به صورت فریلنسر کار کنید.
+ <br /> <br />
+        <h3  className="text-white font-medium">5. دنیای دیجیتال در حال گسترش است:</h3>
+        تمامی کسب‌وکارها به وب‌سایت و نیروی متخصص برای توسعه آن نیاز دارند
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

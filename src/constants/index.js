@@ -28,15 +28,12 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "چرا وب ؟",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+
   {
     id: "contact",
-    title: "Contact",
+    title: "ارتباط با ما",
   },
 ];
 
@@ -115,7 +112,7 @@ const experiences = [
       "Developing and maintaining web applications using Tailwind and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-     
+
     ],
   },
   {
@@ -136,25 +133,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Pouya proved me wrong.",
-    name: "Amin Golparvar",
-    designation: "CFO",
-    company: "Original poosh",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Pouya does.",
-    name: "Ali Mohamadi",
-    designation: "COO",
-    company: "DEF Corp",
+      "من بابت پروژه های این دوره دانشجوی شما شدم و از این بابت خیلی خوشحالم.احساس میکنم مطالب برام از پایه دارن جا می افتن و این موضوع حتما حکم یه برگ برنده رو برام داره. به همه دوستانی که سراغ این دوره اومدن توصیه میکنم لحظه ای برای شرکت کردن درنگ نکنن",
+    name: "محمد زارع",
+    designation: "دانشجو دوره طراحی وب",
 
   },
   {
     testimonial:
-      "After Pouya optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Hossein Ramezani",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "واقعا این دوره عالی بود و راهکار های گفته شده نکات گفته شده واقعا عالی و کاربردی بود استفاده کردیم از مطالب گفته شده استاد ممنون واقعا و خداقوت میگم به صاحب جان عزیز استاد دلسوز و بسیار خفن ",
+    name: "محمد سجادی",
+    designation: "دانشجو دوره طراحی وب",
+
+
+  },
+  {
+    testimonial:
+      "قبل از این دوره دوره اساتید دیگه رو هم دیده بودم ولی هیچکدوم یکمم به این خوبی نبودن. شیوه تدریس مطالب گفته شده پروژه ها همه چی بهترین حالت",
+    name: "محمدرضا رستمی",
+    designation: "دانشجو دوره طراحی وب",
+
+  },
+  {
+    testimonial:
+      "بعد از چهار سال سردرگمی واز این شاخه به اون شاخه پریدن تونستم راه مو پیدا کنم ممنونم",
+    name: "علیرضا عزیزی",
+    designation: "دانشجو دوره طراحی وب",
+
+  },
+  {
+    testimonial:
+      "اگه بخوام نظرمو بگم بی هیچ اغراقی باید بگم که بهترین دوره هستش برای اینکه خودتو از سردرگمی بیرون بیاری. به شخصه همه سوالاتی که داشتم تو این دوره برام پاسخ داده شد و از استاد واقعا بابت این نکات خوبش متشکرم ❤🌹",
+    name: "یاسین علی محمد",
+    designation: "دانشجو دوره طراحی وب",
 
   },
 ];

@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto font-vazir`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,13 +16,18 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">POUYA</span>
+            دویکس آکادمی
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm Front-end developer & UI/Ux designer<br className="sm:block hidden" />
-            i Develope web applications
+          <h2 className={`${styles.heroSubText} mt-5 text-white-100`}>
+           مهارت واقعی تنها با ساختن بدست میاد !
+          </h2>
+          <p className={`text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-5 text-white-100`}>
+            برنامه نویسی وبسایت رو تخصصی یادبگیر و باهاش کسب درآمد کن
           </p>
+       
         </div>
+               <a className="mt-10 z-30 absolute right-[110px] top-[220px] bg-transparent text-white px-8 py-3 rounded-lg border-2 border-white hover:bg-white hover:text-primary duration-100" href="https://wa.me/message/VYIXQLRNKURTI1">شروع یادگیری</a>      
+
       </div>
       
       <ComputersCanvas />
